@@ -1,0 +1,13 @@
+package com.srm.thread.lifecycle;
+
+public class ThreadLifeCycleTester {
+	
+	 public static void main(String args[]) {
+		 ThreadLifeCycle R1 = new ThreadLifeCycle( "Thread-1");
+	      R1.start();
+	      
+	      ThreadLifeCycle R2 = new ThreadLifeCycle( "Thread-2");
+	      R2.start();
+	   }   
+
+}

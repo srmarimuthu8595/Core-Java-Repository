@@ -1,0 +1,10 @@
+package com.srm.creational;
+
+public interface Bankaccount {
+	
+	public abstract double bankAccountDeposit();
+	public abstract String bankAccountBalance();
+	public abstract String getCPU();
+	
+
+}

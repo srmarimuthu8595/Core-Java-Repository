@@ -1,0 +1,11 @@
+package com.srm.dto;
+
+public class CustomerDetails {
+	
+	private String customerName;
+	public String surname;
+	public String dateofbirth;
+	private String age; 
+	
+
+}

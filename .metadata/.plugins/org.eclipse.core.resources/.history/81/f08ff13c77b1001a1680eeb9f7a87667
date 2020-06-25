@@ -1,0 +1,5 @@
+package com.srm.thread.synchronization2;
+
+public class CurrentAccountThread {
+
+}

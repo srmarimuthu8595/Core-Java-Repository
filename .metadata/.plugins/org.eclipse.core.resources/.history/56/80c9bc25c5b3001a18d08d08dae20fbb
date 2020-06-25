@@ -1,0 +1,11 @@
+package com.srm.creational;
+
+public class AFCurrentAccountFactory implements AbstractBankAccounFactory{
+
+	@Override
+	public static AbstractBankAccountOpening createBankAccount() {
+	
+		return new AFCurrentAccount();
+	}
+
+}

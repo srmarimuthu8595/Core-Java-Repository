@@ -1,0 +1,22 @@
+package com.srm.spring.core;
+
+public class BankEmployeeDetails {
+	
+	private int employeeId;  
+	private String employeeName;  
+	  
+/*	public BankEmployeeDetails() {System.out.println("def cons");}  
+	  
+	public BankEmployeeDetails(int id) {this.id = id;}  
+	  
+	public BankEmployeeDetails(String name) {  this.name = name;}  */
+	  
+	public BankEmployeeDetails(int id, String name) {  
+	    this.id = id;  
+	    this.name = name;  
+	}  
+	  
+	void showBankEmployeeDetails(){  
+	    System.out.println(id+" "+name);  
+	}  
+}

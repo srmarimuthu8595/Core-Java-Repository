@@ -1,0 +1,9 @@
+1592487721166	Rename type 'SavingsAccountLoader'
+1592487762803	Rename type 'CurrentAccountLoader'
+1592488252349	Rename type 'CurrentAccountLoaderByRunnableInterface'
+1592488268161	Rename type 'SavingsAccountLoaderByThreadClass'
+1592491383731	Rename type 'ExtractorThreadOne'
+1592491409973	Rename type 'ExtractorThreadTwo'
+1592492957854	Rename type 'CurrentAccountDetails'
+1592493436237	Delete element
+1592576510144	Delete element

@@ -1,0 +1,39 @@
+package com.srm.collections.queues;
+
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.PriorityBlockingQueue;
+
+public class PriorityBlockingQueueExample {
+	
+	public static void main(String arg[]){
+		BlockingQueue<String> queue = new PriorityBlockingQueue<>();
+		 
+		try {
+			
+			queue.put("Aapple");
+			queue.put("Bannana");
+			queue.put("Cocombar");
+			queue.put("");
+			
+			
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		 
+		String element = queue.poll();
+		 
+		while (element != null) {
+		   
+			System.out.println(element);
+			 element = queue.poll();
+		   
+		}
+	}
+	
+	
+	
+
+}

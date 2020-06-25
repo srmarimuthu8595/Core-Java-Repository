@@ -1,0 +1,36 @@
+package com.srm.thread.synchronization2;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class AccountDetailsIntoTextFileWriter {
+
+	   
+	
+	  public void textFileWriter(CustomerAccountDetails obj){
+		  
+		 try{
+			 		  
+		  FileOutputStream f=new FileOutputStream("customer.txt");
+		   ObjectOutputStream out=new ObjectOutputStream(f); 
+		   
+		  
+			   out.writeObject(obj);  
+			   out.flush();  
+			   
+		 
+		   out.close();  
+			f.close();  
+		    System.out.println("success");
+		   
+		  }catch(Exception ex){
+			  		  
+			  
+		  }
+					
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.srm.creational;
+
+public class BankAccountFactoryTester {
+
+	public static void main(String[] args) {
+		
+		Bankaccount obj = BankAccountFactory.getBankAccount("Savings", "SBI2000300400");
+		
+		
+
+	}
+
+}

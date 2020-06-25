@@ -1,0 +1,38 @@
+package com.srm.creational;
+
+public class SavingsAccount extends Bankaccount{
+	
+	
+	public double bankAccountDeposit;
+	public double  bankAccountBalance;
+	public double  bankAccountWithdrawal;
+	String accounttype;
+	String accountNumbe;
+	
+	
+
+	public SavingsAccount(String accounttype, String accountNumbe) {
+		super();
+		this.accounttype = accounttype;
+		this.accountNumbe = accountNumbe;
+	}
+
+	@Override
+	public double bankAccountDeposit() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String bankAccountBalanceCalculation() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String bankAccountWithdrawal() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

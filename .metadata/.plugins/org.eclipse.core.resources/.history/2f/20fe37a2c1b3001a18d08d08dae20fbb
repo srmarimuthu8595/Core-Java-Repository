@@ -1,0 +1,23 @@
+package com.srm.creational;
+
+public class AFCurrentAccount extends AbstractBankAccount{
+
+	@Override
+	public double bankAccountDeposit() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double bankAccountBalance() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double bankAccountWithdrawal() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

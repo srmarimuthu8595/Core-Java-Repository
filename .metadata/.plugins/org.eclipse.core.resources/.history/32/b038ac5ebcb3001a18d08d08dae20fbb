@@ -1,0 +1,11 @@
+package com.srm.creational;
+
+public class BankAccountFactory {
+	
+	public static Bankaccount getBankAccount(String  baccountNumber){
+		
+		
+		
+	}
+
+}

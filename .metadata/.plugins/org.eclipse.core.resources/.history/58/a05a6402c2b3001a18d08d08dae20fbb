@@ -1,0 +1,25 @@
+package com.srm.creational;
+
+public class AFSavingsAccount extends AbstractBankAccountOpening {
+
+	@Override
+	public double interestDetails() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double taxBenifitDetails() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double loyaltyPointDetails() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+
+}

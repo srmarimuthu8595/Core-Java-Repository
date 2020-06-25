@@ -1,0 +1,20 @@
+package com.srm.spring.core;
+
+public class BankEmployeeDetails {
+	
+	private int employeeId;  
+	private String employeeName;
+	private String department;
+		  
+	public BankEmployeeDetails(int employeeId, String employeeName, String department) {
+		super();
+		this.employeeId = employeeId;
+		this.employeeName = employeeName;
+		this.department = department;
+	}
+
+	void showBankEmployeeDetails(){  
+	    System.out.println("Employee Id : "+employeeId);  
+	    System.out.println("EDmployee Name : "+employeeId);  
+	}  
+}

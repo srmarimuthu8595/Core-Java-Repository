@@ -1,0 +1,10 @@
+package com.srm.thread.synchronization;
+
+public class ExtractorThreadTwo  extends Thread{ 
+	
+	
+	ExtractorThreadTwo(SharedResource shrResource){  
+		this.t=t;  
+     }  
+
+}

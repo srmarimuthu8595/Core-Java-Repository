@@ -1,0 +1,32 @@
+package com.srm.collections.arraylist;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class ArrayListListIteratorExample {
+	
+	public static void main(String arg[]){
+		
+		
+		ArrayList<String> arrlist = new ArrayList<String>();  
+		
+		arrlist.add("Marimuthu R");  
+		arrlist.add("Chinnasamy R");  
+		arrlist.add("ddd");  
+		arrlist.add("dddd");  
+		arrlist.add("ddddd");  
+		
+		System.out.println(arrlist);   
+		  
+		ListIterator<String> iterator = arrlist.listIterator(2);  
+		while (iterator.hasNext())  
+		{  
+			String i = iterator.next();  
+			System.out.println(i);  
+		}  
+		
+		
+	}
+	
+
+}

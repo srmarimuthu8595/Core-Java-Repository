@@ -1,0 +1,6 @@
+  .detailstxtbox
+    {
+     font-size:18pt;
+     height:420px;
+     width:2000px;
+}

@@ -1,0 +1,24 @@
+package com.srm.spring.core;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class InjectionsTester {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
+		
+
+		//SetterMethodInjection setterbean = (SetterMethodInjection) context.getBean("setterbean");
+		//setterbean.printWelcomeMessage();
+		
+
+		BankEmployeeDetails constructorbean = (BankEmployeeDetails) context.getBean("constructorbean");
+		System.out.println(constructorbean);
+		constructorbean.showBankEmployeeDetails();
+		
+
+	}
+
+}

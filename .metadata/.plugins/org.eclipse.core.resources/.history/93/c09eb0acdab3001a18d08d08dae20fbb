@@ -1,0 +1,28 @@
+package com.srm.dto;
+
+public class CustomerDetails {
+	
+	private String customerName;
+	private String surname;
+	private String dateofbirth;
+	private String age; 
+	private String mobileNo;
+	private String emailId ;
+	private String address;
+	private String street ;
+	private String city;
+	private String pincode;
+	private String purposeofvisit;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package com.srm.service;
+
+public class CustomerService {
+	
+	
+	public String addCustomerDetails(){
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.srm.thread.synchronization;
+
+public class ExtractorThreadOne {
+	
+
+	SharedResource shrdResource;
+	
+	ExtractorThreadOne(SharedResource shrdResource){  
+		this.shrdResource=shrdResource;  
+     }  
+	
+	
+	public void run(){  
+		shrdResource.sharedResourceOperation("ExtractorThreadTwo ");  
+	}  
+
+}

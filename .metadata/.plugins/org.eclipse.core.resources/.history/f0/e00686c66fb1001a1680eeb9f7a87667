@@ -1,0 +1,18 @@
+package com.srm.thread.synchronization;
+
+public class SharedResource {
+	
+	
+	void sharedResourceOperation(String threadName){  
+		  
+		for(int i=1;i<=5;i++){  
+		    
+					
+		     try{  
+		      Thread.sleep(400);  
+		     }catch(Exception e){System.out.println(e);}  
+		   }  
+		  
+	 }  
+
+}

@@ -1,0 +1,7 @@
+package com.srm.thread.lifecycle;
+
+public class ThreadLifeCycle implements Runnable {
+	
+	
+
+}

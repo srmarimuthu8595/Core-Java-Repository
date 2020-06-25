@@ -1,0 +1,17 @@
+package com.srm.thread.creation;
+
+public class CurrentAccountLoader implements Runnable{  
+	
+	
+	    public void run(){ 
+	    	
+	    	System.out.println("Current Account Loader");  
+		}  
+		  
+		public static void main(String args[]){  
+			
+			CurrentAccountLoader m1=new CurrentAccountLoader();  
+		    Thread t1 =new Thread(m1);  
+		    t1.start();  
+	}  
+}  

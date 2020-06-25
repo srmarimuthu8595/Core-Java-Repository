@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	
+	<bean id="constructorbean" class="com.srm.spring.core.BankEmployeeDetails">  
+		<constructor-arg value="220503" type="employeeId" ></constructor-arg>  
+		<constructor-arg value="Marimuthu R"></constructor-arg>
+		<constructor-arg value="Retail Banking"></constructor-arg>    
+	</bean>  
+	
+	
+	<bean id="setterbean" class="com.srm.spring.core.SetterMethodInjection">
+		<property name="welcomeMessage" value="Marimuthu R" />
+	</bean>
+	
+</beans>

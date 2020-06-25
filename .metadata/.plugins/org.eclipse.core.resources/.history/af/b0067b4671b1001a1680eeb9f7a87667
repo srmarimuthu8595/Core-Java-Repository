@@ -1,0 +1,13 @@
+package com.srm.thread.synchronization;
+
+public class SharedResourceTester {
+	
+	public static void main(String args[]){  
+		SharedResource shrdResource = new SharedResource();//only one object  
+		ExtractorThreadOne extractorOne =new ExtractorThreadOne(shrdResource);  
+		ExtractorThreadTwo t2 =new ExtractorThreadTwo(shrdResource);  
+		t1.start();  
+		t2.start();  
+	}  
+
+}

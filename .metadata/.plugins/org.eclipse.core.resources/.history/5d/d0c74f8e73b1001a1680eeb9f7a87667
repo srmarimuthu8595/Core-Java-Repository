@@ -1,0 +1,63 @@
+package com.srm.thread.synchronization2;
+
+public class CurrentAccountDetails {
+	
+	
+	 int customerId;  
+	 String customerName;  
+	 String accountType;
+	 String accountNumber;
+	 
+	 String customerAddress;
+     
+	 public CurrentAccountDetails(int customerId, String customerName, String password, String accountNumber,
+			String customerAddress) {
+		super();
+		this.customerId = customerId;
+		this.customerName = customerName;
+		this.password = password;
+		this.accountNumber = accountNumber;
+		this.customerAddress = customerAddress;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	public String getCustomerAddress() {
+		return customerAddress;
+	}
+
+	public void setCustomerAddress(String customerAddress) {
+		this.customerAddress = customerAddress;
+	}
+	 
+}

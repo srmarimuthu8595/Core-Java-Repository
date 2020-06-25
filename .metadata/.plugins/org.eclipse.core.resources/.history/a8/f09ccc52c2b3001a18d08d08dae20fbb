@@ -1,0 +1,31 @@
+package com.srm.creational;
+
+public class AFCurrentAccount extends AbstractBankAccountOpening{
+
+	public double interestDetails=4;
+	public double taxBenifitDetails;
+	public double loyaltyPointDetails;
+	
+	
+	
+	@Override
+	public double interestDetails() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double taxBenifitDetails() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double loyaltyPointDetails() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+
+}

@@ -1,0 +1,23 @@
+package com.srm.creational;
+
+public class BankAccountFactoryTester {
+
+	public static void main(String[] args) {
+		
+		Bankaccount savingAccount = BankAccountFactory.getBankAccount("Savings", "SBI2000300400");
+		
+		System.out.println("Savings Account Banalce : "+savingAccount.bankAccountBalance());
+		System.out.println("Account Deposit : "+savingAccount.bankAccountDeposit());
+		System.out.println("Account Withdraw : "+savingAccount.bankAccountWithdrawal());
+		
+		
+		Bankaccount curretntAccount = BankAccountFactory.getBankAccount("Current", "CACC400600700");
+		
+		System.out.println("Account Banalce : "+curretntAccount.bankAccountBalance());
+		System.out.println("Account Deposit : "+curretntAccount.bankAccountDeposit());
+		System.out.println("Account Withdraw : "+curretntAccount.bankAccountWithdrawal());
+		
+
+	}
+
+}

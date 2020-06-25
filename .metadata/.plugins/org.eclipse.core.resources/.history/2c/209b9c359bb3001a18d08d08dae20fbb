@@ -1,0 +1,28 @@
+package com.srm.collections.queues;
+
+import java.util.concurrent.BlockingQueue;
+
+public class CustomPriorityBlockingQueueTester {
+
+	public static void main(String[] args) {
+	
+		BlockingQueue<BankCustomerDetails> queue = new PriorityBlockingQueue<>();
+		 
+		queue.put(new Person("Tony", 30, 50000));
+		queue.put(new Person("John", 25, 60000));
+		queue.put(new Person("Alex", 35, 80000));
+		queue.put(new Person("Garry", 23, 99000));
+		 
+		Person person = queue.poll();
+		 
+		while (person != null) {
+		    System.out.println(person);
+		    person = queue.poll();
+		}
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.srm.thread.synchronization2;
+
+import com.srm.thread.synchronization.SharedResource;
+
+public class CurrentAccountThread extends Thread{ 
+	
+	AccountDetailsIntoTextFileWriter txtWriter;
+	
+	CurrentAccountThread(AccountDetailsIntoTextFileWriter txtWriter){  
+		this.txtWriter=txtWriter;  
+     }  
+	
+	
+	public void run(){  
+		txtWriter.textFileWriter("Current Account Extractor");  
+	}  
+	
+}

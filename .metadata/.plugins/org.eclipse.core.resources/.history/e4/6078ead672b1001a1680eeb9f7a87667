@@ -1,0 +1,12 @@
+package com.srm.thread.synchronization2;
+
+public class CurrentAccountDetails {
+	
+	
+	 int customerId;  
+	 String customerName;  
+	 transient String password;//Now it will not be serialized 
+	
+	
+
+}

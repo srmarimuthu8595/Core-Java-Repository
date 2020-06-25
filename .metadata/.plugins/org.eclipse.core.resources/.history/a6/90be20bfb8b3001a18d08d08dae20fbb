@@ -1,0 +1,10 @@
+package com.srm.creational;
+
+public interface Bankaccount {
+	
+	public abstract double get();
+	public abstract String getHDD();
+	public abstract String getCPU();
+	
+
+}

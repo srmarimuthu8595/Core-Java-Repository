@@ -1,0 +1,16 @@
+package com.srm.thread.synchronization;
+
+public class ExtractorThreadTwo  extends Thread{ 
+	
+	SharedResource shrdResource;
+	
+	ExtractorThreadTwo(SharedResource shrdResource){  
+		this.shrdResource=shrdResource;  
+     }  
+	
+	
+	public void run(){  
+		t.printTable(5);  
+	}  
+
+}

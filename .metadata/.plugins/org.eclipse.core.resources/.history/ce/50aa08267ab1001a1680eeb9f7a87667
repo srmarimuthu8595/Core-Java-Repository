@@ -1,0 +1,18 @@
+package com.srm.thread.synchronization2;
+
+public class AccountDetailsIntoTextFileWritingTester {
+	
+	public static void main(String args[]){  
+		
+		AccountDetailsIntoTextFileWriter obj = new AccountDetailsIntoTextFileWriter();
+		
+		CurrentAccountThread curraccThread = new CurrentAccountThread(obj);
+		SavingsAccountThread sbaccThread = new SavingsAccountThread(obj);
+		
+		curraccThread.start();
+		curraccThread.start();
+		
+		
+	}
+
+}

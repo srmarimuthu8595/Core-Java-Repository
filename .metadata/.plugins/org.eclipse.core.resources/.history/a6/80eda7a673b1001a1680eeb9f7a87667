@@ -1,0 +1,26 @@
+package com.srm.thread.synchronization2;
+
+public class CurrentAccountDetails {
+	
+	
+	 int customerId;  
+	 String customerName;  
+	 String accountType;
+	 String accountNumber;
+	 String customerAddress;
+	public CurrentAccountDetails(int customerId, String customerName, String accountType, String accountNumber,
+			String customerAddress) {
+		super();
+		this.customerId = customerId;
+		this.customerName = customerName;
+		this.accountType = accountType;
+		this.accountNumber = accountNumber;
+		this.customerAddress = customerAddress;
+	}
+	 
+	 
+	 
+	 
+	 
+	 
+}

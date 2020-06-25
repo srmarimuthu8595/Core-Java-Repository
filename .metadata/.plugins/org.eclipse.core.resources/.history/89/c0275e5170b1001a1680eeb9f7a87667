@@ -1,0 +1,10 @@
+package com.srm.thread.synchronization;
+
+public class ExtractorThreadTwo  extends Thread{ 
+	
+	
+	ExtractorThreadTwo(Table t){  
+		this.t=t;  
+		}  
+
+}

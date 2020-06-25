@@ -1,0 +1,5 @@
+package com.srm.collections.queues;
+
+public class Producer {
+
+}
