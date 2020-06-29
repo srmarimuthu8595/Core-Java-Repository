@@ -1,6 +1,0 @@
-package com.srm.creational;
-
-public class AFSavingsAccountFactory implements AbstractBankAccounFactory{
-
-	
-}

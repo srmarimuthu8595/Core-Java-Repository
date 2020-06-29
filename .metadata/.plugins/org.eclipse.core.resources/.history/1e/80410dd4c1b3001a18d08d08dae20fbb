@@ -1,9 +1,0 @@
-package com.srm.creational;
-
-public abstract class AbstractBankAccountOpening {
-	
-	public abstract double  interestDetail();
-	public abstract double bankAccountBalance();
-	public abstract double bankAccountWithdrawal();
-
-}

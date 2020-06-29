@@ -1,0 +1,18 @@
+ <div >
+                        <table class="table table-striped">
+                                <thead>
+                                  <tr>
+                                    <th ng-repeat="col in Employees.column">{{col}}</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr ng-repeat="data in Employees.data">
+                                    <td>{{data.empId}}</td>
+                                    <td>{{data.accountnumber}}</td>
+                                    <td>{{data.employeename}}</td>
+                                    <td>{{data.employeedob}}</td>
+                                    <td>{{data.age}}</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+</div>    

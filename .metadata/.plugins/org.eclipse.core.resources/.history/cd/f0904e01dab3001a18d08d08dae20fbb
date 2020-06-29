@@ -1,7 +1,0 @@
-package com.srm.dto;
-
-public class CustomerDetails {
-	
-	public String Customer Name 
-
-}

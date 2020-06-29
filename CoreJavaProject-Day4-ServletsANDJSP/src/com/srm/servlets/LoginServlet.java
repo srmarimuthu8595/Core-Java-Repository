@@ -26,8 +26,8 @@ public class LoginServlet extends HttpServlet {
 		try {
 			if(loginService.checkUserNameAndPassword(login)){
 				System.out.println("Login Success");
-				//request.getServletContext().getRequestDispatcher("/welcome").forward(request, response);
-				request.getServletContext().getRequestDispatcher("/addCustomer.jsp").forward(request, response);
+				request.getServletContext().getRequestDispatcher("/welcome").forward(request, response);
+				//request.getServletContext().getRequestDispatcher("/addCustomer.jsp").forward(request, response);
 			}else{
 				System.out.println("Login Failed");
 				request.setAttribute("loginFailedMsg", "Please enter the valid username and password");

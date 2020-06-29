@@ -33,8 +33,12 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCWithRest"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\ProductManager-SpringBoot"/>
 			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCHibernateCRUDExample"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCHibernate"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\java-blog-aggregator"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\CPFB Project4\cpfb-parent"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCWithRest"/>
 			<item value="C:\Users\marimuthu\Downloads\SpringExample"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -73,12 +77,18 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringMVC-Hibernate"/>
+			<item value="com.srm.spring"/>
+			<item value="com.srm.srping.mvc"/>
 			<item value="SpringCoreProject-Day5"/>
 			<item value="CoreJavaProject-Day4-ServletsANDJSPWithJSTL"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringMVC-Hibernate"/>
+			<item value="SpringMVC-Hibernate-Day6"/>
+			<item value="SpringMVCHibernate-Day6"/>
 			<item value="SpringCoreProject-Day5"/>
 			<item value="CoreJavaProject-Day4-ServletsANDJSPWithJSTL"/>
 		</list>
@@ -88,8 +98,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\marimuthu\Downloads\SpringExample"/>
 			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCHibernate"/>
+			<item value="C:\Users\marimuthu\Downloads\SpringExample"/>
 			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\CoreJavaProject-Day4-ServletsANDJSP\WebContent\addCustomer.jsp"/>
 			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\Servers"/>
 			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\CoreJavaProject-Day1"/>
@@ -106,10 +117,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.srm.myapp.SpringMVC_Hibernate_Day6"/>
+			<item value="com.srm.myapp.SampleProject"/>
+			<item value="com.srm.myapp.SpringMVC"/>
 		</list>
 		<list key="groupId">
+			<item value="com.srm.myapp"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringMVC-Hibernate-Day6"/>
+			<item value="SampleProject"/>
+			<item value="SpringMVC"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

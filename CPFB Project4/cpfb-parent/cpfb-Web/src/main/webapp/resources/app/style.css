@@ -1,0 +1,33 @@
+body {
+            font-family: "Lato", sans-serif;
+        }
+        .navbar {
+        	margin-bottom:0px !important;
+        	border-radius:0px !important;
+        	background-color: #08085a !important;
+            border-color: #08085a !important;
+        	
+        }
+        .navbar-inverse .navbar-brand {
+         color: white !important;
+        }
+        .vertical-menu {
+            width: 200px;
+        }
+        
+        .vertical-menu a {
+            background-color: #eee;
+            color: black;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+        }
+        
+        .vertical-menu a:hover {
+            background-color: #ccc;
+        }
+        
+        .vertical-menu a.active {
+            background-color: #4CAF50;
+            color: white;
+        }

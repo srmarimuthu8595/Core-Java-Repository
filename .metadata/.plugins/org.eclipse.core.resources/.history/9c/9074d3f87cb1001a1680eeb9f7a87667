@@ -1,5 +1,0 @@
-package com.srm.thread.deadlock;
-
-public class DeadlockExample {
-
-}

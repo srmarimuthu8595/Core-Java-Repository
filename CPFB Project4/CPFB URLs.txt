@@ -1,0 +1,5 @@
+http://localhost:8080/cpfb-web/service/rest/employees/getEmployeeDetails
+
+http://localhost:8080/cpfb-web/service/rest/employer/getEmployerDetails
+
+http://localhost:8080/cpfb-web/service/rest/memdetails/getMEMDetails

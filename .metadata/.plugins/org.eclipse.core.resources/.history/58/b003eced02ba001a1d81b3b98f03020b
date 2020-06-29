@@ -1,0 +1,16 @@
+package com.srm.spring.jpa;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+
+public interface ExpenseRepository extends CrudRepository<Product, Long> {
+	
+	public List<Product> findByItem(String item);
+    
+    @Query("SELECT e FROM Expense e WHERE e.amount >= :amount")
+    public List<Product> listItemsWithPriceOver(@Param("amount") float amount);
+
+}

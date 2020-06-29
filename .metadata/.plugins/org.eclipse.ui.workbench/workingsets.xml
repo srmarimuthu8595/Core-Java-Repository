@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1593110550436_1" label="cpfb-parent" name="cpfb-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cpfb-Web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/cpfb-parent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CPFB-rest" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CPFB-dao" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CPFB-model" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1592123109550_0" label="Window Working Set" name="Aggregate for window 1592123109549"/>
 </workingSetManager>

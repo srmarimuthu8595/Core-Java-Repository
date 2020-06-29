@@ -1,7 +1,0 @@
-package com.srm.creational;
-
-public class AFCurrentAccount extends AbstractBankAccountOpening{
-
-	
-
-}
