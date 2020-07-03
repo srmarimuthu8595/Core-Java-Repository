@@ -13,7 +13,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class AppController {
-
+	
+	
 	@Autowired
 	private ProductService service; 
 	
@@ -36,7 +37,6 @@ public class AppController {
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public String saveProduct(@ModelAttribute("product") Product product) {
 		service.save(product);
-		
 		return "redirect:/";
 	}
 	
@@ -54,4 +54,8 @@ public class AppController {
 		service.delete(id);
 		return "redirect:/";		
 	}
+	
+	
+	
+
 }

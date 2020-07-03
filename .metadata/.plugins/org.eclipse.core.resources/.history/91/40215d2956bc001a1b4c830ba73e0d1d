@@ -1,0 +1,27 @@
+package com.srm.spring.app.controller;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.srm.spring.app.dto.CurrentAccountDTO;
+import com.srm.spring.app.service.CurrentAccountService;
+
+@RestController
+@RequestMapping(value = "/rest/curracc")
+public class CurrentAccountController {
+	
+	@Autowired
+	private CurrentAccountService currentAccountService;
+	
+	public CurrentAccountDTO saveCurrentAccount(CurrentAccountDTO dto){
+		try{
+			dto=currentAccountService.saveCurrentAccount(dto);
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+	   return dto;
+	}
+
+}

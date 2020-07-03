@@ -1,0 +1,41 @@
+package com.srm.spring.app.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="currentcccount")
+public class CurrentAccount {
+	
+	@Id
+	@Column(name="curracid")
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Integer curracId;
+	
+	@Column(name="customerid")
+	private String customerid;
+		
+	@Column(name="curraccno")
+	private String curraccno;
+	
+	@Column(name="name")
+	private String name;
+	
+	@Column(name="depositdate")
+	private Date depositdate;
+	
+	@Column(name="withdrawdate")
+	private Date withdrawdate;
+	
+	@Column(name="amount")
+	private Double salary;
+	
+	
+
+}

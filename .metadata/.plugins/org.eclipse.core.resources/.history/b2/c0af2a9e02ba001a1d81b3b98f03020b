@@ -1,7 +1,0 @@
-package com.srm.spring.jpa;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface ExpenseRepository extends CrudRepository<Product, Long> {
-
-}

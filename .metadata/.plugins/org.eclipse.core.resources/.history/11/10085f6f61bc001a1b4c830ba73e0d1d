@@ -1,0 +1,14 @@
+package com.srm.spring.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+scanBasePackages={
+"com.example.something", "com.example.application"})
+public class SpringBootDay8Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDay8Application.class, args);
+	}
+
+}

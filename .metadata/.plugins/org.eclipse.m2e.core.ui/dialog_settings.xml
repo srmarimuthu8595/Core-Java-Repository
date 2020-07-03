@@ -33,13 +33,21 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\spring-boot-hibernate-5-example-master"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\apache-derby-example"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringBootHibernateProject-master\SpringBootHibernateProject"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\Spring-Boot-Day8"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringBoot-Day8"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\spring-boot-mysql-rest-api-tutorial-master"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringBootRestAPIHibernateJPAMYSQLTutorial-master\springbootrestapiexample"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringBootRestAPIHibernateJPAMYSQLTutorial-master\springbootexample"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringBootHibernateExample"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringBootHibernateExample-master\SpringBootHibernateExample"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringBootWebAppExample"/>
+			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\Spring-Boot"/>
+			<item value="D:\CPFB Project4\cpfb-parent"/>
 			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\ProductManager-SpringBoot"/>
 			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCHibernateCRUDExample"/>
-			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCHibernate"/>
-			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\java-blog-aggregator"/>
-			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\CPFB Project4\cpfb-parent"/>
-			<item value="D:\USAWorkSpaces\CoreJavaWorkSpace\SpringMVCWithRest"/>
-			<item value="C:\Users\marimuthu\Downloads\SpringExample"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

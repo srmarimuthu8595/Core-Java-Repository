@@ -1,0 +1,36 @@
+package com.srm.spring.app.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="customerdetails")
+public class CustomerDetails {
+	
+	@Id
+	@Column(name="custid")
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Integer custid;
+	
+	@Column(name="custname")
+	private String custname;
+	
+	@Column(name="fathername")
+	private String fathername;
+	
+	@Column(name="dod")
+	private Date dod;
+	
+	@Column(name="fathername")
+	private String occupation;
+	
+	
+	
+
+}

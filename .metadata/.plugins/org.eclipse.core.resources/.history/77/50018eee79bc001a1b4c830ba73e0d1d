@@ -1,0 +1,30 @@
+package com.srm.spring.app.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="custaddressdetails")
+public class CustomerAddressDetails {
+	
+	@Id
+	@Column(name="addressid")
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Integer addressid;
+	
+	@Column(name="addresstype")
+	private String addresstype;
+	
+	@Column(name="address")
+	private String address;
+	
+	@Column(name="street")
+	private String street;
+	
+	
+
+}

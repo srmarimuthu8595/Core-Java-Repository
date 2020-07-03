@@ -1,0 +1,31 @@
+package com.srm.spring.jpa;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+
+public interface CurdProductRepository extends CrudRepository<Product, Long> {
+		
+	
+	
+	@Query("insert into ")
+	public List<Product> saveProducts(Product product);
+	
+	@Query("select * from Product")
+	public List<Product> getAllProducts();
+		
+	
+    @Query("select * from Product e WHERE e.id = :id")
+    public Product getProductsById(@Param("id")long id);
+    
+    
+    @Query("delete from Product e WHERE e.id = :id")
+    public Product deleteProductsById(@Param("id")long id);
+    
+    
+    
+    
+    
+}

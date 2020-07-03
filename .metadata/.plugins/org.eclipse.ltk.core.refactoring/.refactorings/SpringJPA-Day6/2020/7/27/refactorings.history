@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.srm.spring.jpa.SampleCurdRepository&apos; to &apos;CurdProductRepository&apos;&#x0D;&#x0A;- Original project: &apos;SpringJPA-Day6&apos;&#x0D;&#x0A;- Original element: &apos;com.srm.spring.jpa.SampleCurdRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;com.srm.spring.jpa.CurdProductRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SampleCurdRepository&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.srm.spring.jpa{SampleCurdRepository.java[SampleCurdRepository" matchStrategy="1" name="CurdProductRepository" qualified="false" references="true" similarDeclarations="false" stamp="1593584257996" textual="false" version="1.0"/>
+</session>

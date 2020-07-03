@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="hibernate" key="selection"/>
+		<item value="custid" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="custid"/>
 			<item value="hibernate"/>
 			<item value="spring-context"/>
 			<item value="spring-web"/>
@@ -15,7 +16,6 @@
 			<item value="contextConfigLocation"/>
 			<item value="org.springframework.web.servlet.DispatcherServlet"/>
 			<item value="hiberDataSource"/>
-			<item value="transactionManager"/>
 		</list>
 		<list key="replacehistory">
 		</list>

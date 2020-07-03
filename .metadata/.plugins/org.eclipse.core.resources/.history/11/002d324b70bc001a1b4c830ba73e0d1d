@@ -1,0 +1,9 @@
+package com.srm.spring.dao;
+
+public class MyService {
+	
+	public void print(){
+		
+	}
+
+}

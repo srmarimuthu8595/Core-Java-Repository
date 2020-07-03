@@ -1,0 +1,24 @@
+package com.srm.spring.app.dto;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+import com.srm.spring.app.model.CustomerDetails;
+
+public class CustomerCredientialsDTO {
+	
+	
+	private Integer credientialid;
+	
+	private CustomerDetails custid;
+	
+	private String username;
+	
+	@Column(name = "password")
+	private String password;
+
+}

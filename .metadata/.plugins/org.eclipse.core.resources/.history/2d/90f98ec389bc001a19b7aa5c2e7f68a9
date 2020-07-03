@@ -1,0 +1,14 @@
+package com.srm.spring.app.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CustomerDetailsDAO {
+	
+	@Autowired
+	private EntityManagerFactory entityManagerFactory;
+	
+	
+	
+
+}

@@ -1,0 +1,43 @@
+package com.srm.spring.app.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="savingsaccount")
+public class SavingsAccount {
+	
+	@Id
+	@Column(name="saveaccid")
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Integer saveaccid;
+	
+	@ManyToOne
+	@JoinColumn(name = "custid")
+	private CustomerDetails custid;
+		
+	@Column(name="curraccno")
+	private String curraccno;
+	
+	@Column(name="actiontype")
+	private String actiontype;
+	
+	@Column(name="depositdate")
+	private Date depositdate;
+	
+	@Column(name="withdrawdate")
+	private Date withdrawdate;
+	
+	@Column(name="amount")
+	private Double amount;
+
+
+}

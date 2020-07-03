@@ -1,0 +1,6 @@
+package com.srm.spring.app.util;
+
+public class Snippet {
+	getSessionFactory()
+}
+

@@ -13,9 +13,7 @@ public class ProductService {
 	@Autowired
 	private ProductRepository repo;
 	
-	@Autowired
-	private SampleCurdRepository curdrepo;
-	
+
 	public List<Product> listAll() {
 		return repo.findAll();
 	}
@@ -34,23 +32,24 @@ public class ProductService {
 	
 	//Curd Repository
 	
-	/*public List<Product> listAllByCurd() {
-		return repo.findAll();
+	/*public List<Product> getAllProducts() {
+		return curdrepo.getAllProducts();
 	}
 	
-	public void saveByCurd(Product product) {
-		repo.save(product);
+	public void saveProducts(Product product) {
+		//curdrepo.save(product);
+		curdrepo.save(product);
 	}
 	
-	public Product getByCurd(long id) {
-		return repo.findById(id).get();
+	public Product getProductsById(long id) {
+		return curdrepo.getProductsById(id);
 	}
 	
-	public void deleteByCurd(long id) {
+	public void deleteById(long id) {
 		repo.deleteById(id);
 	}
-	
 	*/
+	
 	
 	
 	

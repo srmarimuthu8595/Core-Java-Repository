@@ -1,0 +1,15 @@
+package com.srm.spring.app.dto;
+
+import com.srm.spring.app.model.CustomerDetails;
+
+public class CustomerCredientialsDTO {
+		
+	private Integer credientialid;
+	
+	private CustomerDetails custid;
+	
+	private String username;
+
+	private String password;
+
+}
