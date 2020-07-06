@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"https://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	
+	
+	 <!-- JPA Named Queries -->
+    <named-query name="CustomerDetails.findAll">
+        <query>SELECT b FROM Book b</query>
+    </named-query>
+    
+    
+    <named-query name="CustomerDetails.findByCustId">
+        <query>SELECT b FROM CustomerDetails c WHERE c.custid = :custid</query>
+    </named-query>
+	
+	
+	
+	
+	
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+package com.srm.java8.methodreference;
+
+public class Methodreferencetoaninstancemethodofanobject {
+	
+	 public void myDisplayMyDetails(){  
+			System.out.println("Instance Method");  
+	 }  
+
+}

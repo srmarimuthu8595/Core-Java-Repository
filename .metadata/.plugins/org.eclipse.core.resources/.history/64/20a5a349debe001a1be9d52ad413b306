@@ -1,0 +1,7 @@
+package com.srm.java8.lambda;
+
+public interface MyFunctionalInterface {
+	
+	 public String displayMyDetails();
+
+}

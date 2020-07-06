@@ -1,0 +1,10 @@
+package com.srm.java8.lambda;
+
+public class LambdaExpressionwithMultipleParameter {
+	
+	public static void main(String args[]) {
+		MyFunctionalInterfaceP2 s = (str1, str2) -> str1 + str2;
+        System.out.println("Result: "+s.sconcat("Hello ", "World"));
+    }
+
+}

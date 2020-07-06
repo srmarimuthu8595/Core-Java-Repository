@@ -1,6 +1,0 @@
-package com.srm.spring.controller;
-
-@Controller
-public class MyController {
-
-}

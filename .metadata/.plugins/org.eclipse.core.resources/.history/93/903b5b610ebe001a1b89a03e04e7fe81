@@ -1,0 +1,15 @@
+package com.srm.spring.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.srm.spring.model.CustomerCredientials;
+
+public class LoginService {
+	
+	@Autowired
+	
+	public String doLogin(CustomerCredientials object) throws Exception{
+		
+	}
+
+}

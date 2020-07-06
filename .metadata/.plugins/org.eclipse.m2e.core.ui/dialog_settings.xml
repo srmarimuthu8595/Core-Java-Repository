@@ -125,17 +125,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.srm.myapp.SpringMVC_Hibernate_Day6"/>
-			<item value="com.srm.myapp.SampleProject"/>
-			<item value="com.srm.myapp.SpringMVC"/>
 		</list>
 		<list key="groupId">
-			<item value="com.srm.myapp"/>
 		</list>
 		<list key="artifactId">
-			<item value="SpringMVC-Hibernate-Day6"/>
-			<item value="SampleProject"/>
-			<item value="SpringMVC"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -1,0 +1,13 @@
+package com.srm.java8.lambda;
+
+public class LambdaExpressionwithnoparameter {
+	
+	public static void main(String args[]) {
+        // lambda expression
+    	MyFunctionalInterface msg = () -> {
+    		return "Hello";
+    	};
+        System.out.println(msg.displayMyDetails()());
+    }
+
+}

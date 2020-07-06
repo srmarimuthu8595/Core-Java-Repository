@@ -1,0 +1,8 @@
+package com.srm.java8.lambda;
+
+public class Snippet {
+	public static void main(String[] args) {
+		printMyDetails
+	}
+}
+

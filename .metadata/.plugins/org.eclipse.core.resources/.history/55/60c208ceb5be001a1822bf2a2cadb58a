@@ -1,0 +1,22 @@
+package com.srm.spring.app;
+
+
+public class CustomerDetailsTester {
+
+	@Autowired
+	private WebApplicationContext webApplicationContext;
+
+	private MockMvc mockMvc;
+
+	@Before
+	public void setup() {
+		mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
+	}
+
+	@Test
+	public void testEmployee() throws Exception {
+		
+	}
+
+    
+}

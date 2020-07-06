@@ -1,0 +1,19 @@
+package com.srm.spring.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.srm.spring.dao.LoginDAO;
+import com.srm.spring.model.CustomerCredientials;
+
+@Component
+public class LoginService {
+	
+	@Autowired
+	LoginDAO loginDAO;
+	
+	public String doLogin(CustomerCredientials object) throws Exception{
+		return loginDAO.doLogin(object);
+	}
+	
+}

@@ -1,0 +1,7 @@
+package com.srm.java8.defaultmethods;
+
+public class DefaultmethodinInterface {
+	
+	default void displayMyDetails()
+
+}

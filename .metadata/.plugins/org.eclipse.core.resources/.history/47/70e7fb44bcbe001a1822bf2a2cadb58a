@@ -1,0 +1,25 @@
+package com.srm.junit.testcase;
+
+import org.junit.Before;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.srm.junit.logic.BankDeposit;
+
+public class BankDepositTest {
+	
+	String accountNumber="3452345234";
+	String status;
+	
+	@Autowired
+	BankDeposit obj;
+	
+	
+	@Before
+	public void testValidateCustomerDetails() throws Exception {
+		status=obj.validateCustomerDetails(accountNumber);
+	}
+	
+	
+	
+
+}

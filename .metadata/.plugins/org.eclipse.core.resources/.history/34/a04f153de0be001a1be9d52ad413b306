@@ -1,0 +1,14 @@
+package com.srm.java8.lambda;
+
+import com.srm.java8.methodreference.MyFunctionalInterface;
+
+public class LambdaExpressionwithnoparameter {
+	
+	public static void main(String args[]) {
+    	MyFunctionalInterface msg = () -> {
+    		return "R.Marimuthu,91 Singanallurpost,Kavunthpadi(via)";
+    	};
+        System.out.println(msg.displayMyDetails());
+    }
+
+}

@@ -1,0 +1,11 @@
+package com.srm.java8.lambda;
+
+public class LambdaExpressionwithsingleparameter {
+	
+	 public static void main(String args[]) {
+	        // lambda expression with single parameter num
+		 MyFunctionalInterfaceP1 f = (num) -> num+5;
+	        System.out.println(f.incrementByFive(22));
+	  }
+
+}

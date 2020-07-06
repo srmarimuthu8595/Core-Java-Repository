@@ -1,0 +1,7 @@
+package com.srm.java8.lambda;
+
+public class MyFunctionalInterfaceP2 {
+	
+	 public String sconcat(String a, String b);
+
+}

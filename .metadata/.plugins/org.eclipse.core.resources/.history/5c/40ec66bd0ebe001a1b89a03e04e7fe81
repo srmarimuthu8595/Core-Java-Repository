@@ -1,0 +1,16 @@
+package com.srm.spring.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.srm.spring.model.CustomerCredientials;
+
+@RestController
+@RequestMapping("rest/login")
+public class LoginController {
+	
+	public String doLogin(CustomerCredientials object) throws Exception{
+		
+	}
+
+}

@@ -1,5 +1,6 @@
 package com.srm.spring.app.service;
 
+import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -123,6 +124,7 @@ public CustomerDetailsDTO updateCustomerDetails(CustomerDetailsDTO custDtlsDTO) 
     
     public CustomerDetailsDTO retrieveCustomerDetails(Integer custid) throws Exception{
     	
+    	List<CustomerAddressDetailsDTO> custAddressDtlsDTOList = new  ArrayList<CustomerAddressDetailsDTO>();
     	CustomerDetailsDTO dto = new CustomerDetailsDTO();
     	CustomerDetails custDetails= customerDetailsDAO.retrieveCustomerDetails(custid);
     	dto.setCustid(custDetails.getCustid());
@@ -131,12 +133,33 @@ public CustomerDetailsDTO updateCustomerDetails(CustomerDetailsDTO custDtlsDTO) 
     	dto.setDod(custDetails.getDod());
     	dto.setOccupation(custDetails.getOccupation());
     	dto.setPanno(custDetails.getPanno());
+    	List<CustomerAddressDetails> custAddressDtlList = custDetails.getCustAddressDtlList();
+    	for(CustomerAddressDetails obj:custAddressDtlList){
+    		
+    		CustomerAddressDetailsDTO addressdto = new CustomerAddressDetailsDTO();
+    		
+    		addressdto.setAddressid(obj.getAddressid());
+    		addressdto.setAddresstype(obj.getAddresstype());
+    		addressdto.setAddress(obj.getAddress());
+    		addressdto.setStreet(obj.getStreet());
+    		addressdto.setCity(obj.getCity());
+    		addressdto.setCustid(obj.getCustid());
+    		addressdto.setPincode(obj.getPincode());
+    		
+    		custAddressDtlsDTOList.add(addressdto);
+    		
+    	}
     	 
+    	dto.setCustAddressDtlsDTOList(custAddressDtlsDTOList);
     	return dto;
     }
     
     public CustomerDetailsDTO retrieveCustomerAndCredientialDtls(Integer custid) throws Exception{
     	   return customerDetailsDAO.retrieveCustomerAndCredientialDtls(custid);
+    }
+    
+    public CustomerDetailsDTO retrieveCustomerAndCredientialDtlsByCriteria(Integer custid) throws Exception{
+    	return customerDetailsDAO.retrieveCustomerAndCredientialDtlsByCriteria(custid);
     }
     
     public CustomerDetailsDTO retrieveCustomerByHQL(Integer custid) throws Exception{
@@ -156,6 +179,18 @@ public CustomerDetailsDTO updateCustomerDetails(CustomerDetailsDTO custDtlsDTO) 
     	return customerDetailsDAO.deleteCustomerDetailsbyHQL(custid);
     }
     
+    public CustomerDetailsDTO getCustomerDetailsByNamedQuery(Integer custId) throws Exception{
+    	CustomerDetails custdetails;
+    	custdetails= customerDetailsDAO.getCustomerDetailsByNamedQuery(custId);
+    	CustomerDetailsDTO dto = new CustomerDetailsDTO();
+    	dto.setCustid(custdetails.getCustid());
+    	dto.setCustname(custdetails.getCustname());
+    	dto.setFathername(custdetails.getFathername());
+    	dto.setDod(custdetails.getDod());
+    	dto.setOccupation(custdetails.getOccupation());
+    	dto.setPanno(custdetails.getPanno());
+    	return dto;
+    }
     
 	
 	

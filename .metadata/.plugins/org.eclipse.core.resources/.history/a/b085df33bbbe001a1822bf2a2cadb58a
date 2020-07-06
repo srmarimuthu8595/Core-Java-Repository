@@ -1,0 +1,18 @@
+package com.srm.junit.testcase;
+
+import org.junit.Before;
+
+public class BankDepositTest {
+	
+	String accountNumber;
+	
+	BankDeposit obj = new BankDeposit();
+	
+	
+	@Before
+	public void setUp() throws Exception {
+		System.out.println("before");
+	}
+	
+
+}

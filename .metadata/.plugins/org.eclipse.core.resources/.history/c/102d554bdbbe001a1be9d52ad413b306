@@ -1,0 +1,12 @@
+package com.srm.java8.lambda;
+
+public class LambdaExpressionwithsingleparameter {
+	
+	 public static void main(String args[]) {
+	   
+		MyFunctionalInterfaceP1 f = (num) -> num+1000;
+	    System.out.println("Incremented value ========== >"f.incrementByThousand(1));
+	  
+	 }
+
+}

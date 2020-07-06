@@ -1,0 +1,48 @@
+package com.srm.spring.dao;
+
+import javax.persistence.EntityManagerFactory;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.srm.spring.model.CustomerAddressDetails;
+
+
+@Repository
+public class CustomerAddressDAO {
+	
+	
+	@Autowired
+	SessionFactory sessionFactory;
+	
+	public CustomerAddressDetails saveCustomerAddressDetails(CustomerAddressDetails custadddtls) throws Exception{
+		try{
+			Session session = sessionFactory.getCurrentSession();
+			int retvalur=(int)session.save(custadddtls);
+			custadddtls.setAddressid(retvalur);
+		}catch(Exception ex){
+			throw ex;
+		}
+		return custadddtls;
+	}
+	
+	public CustomerAddressDetails updateCustomerAddressDetails(CustomerAddressDetails custadddtls) throws Exception{
+		try{
+			Session session = entityManagerFactory.unwrap(SessionFactory.class).openSession();
+			session.beginTransaction();
+			session.saveOrUpdate(custadddtls);
+			session.getTransaction().commit();
+		}catch(Exception ex){
+			throw ex;
+		}
+		return custadddtls;
+	}
+	
+	
+	
+	
+	
+
+}

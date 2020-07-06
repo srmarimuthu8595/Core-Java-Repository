@@ -1,0 +1,13 @@
+package com.srm.spring.service;
+
+import com.srm.spring.model.CustomerCredientials;
+
+public class LoginService {
+	
+	@Autowired
+	
+	public String doLogin(CustomerCredientials object) throws Exception{
+		
+	}
+
+}

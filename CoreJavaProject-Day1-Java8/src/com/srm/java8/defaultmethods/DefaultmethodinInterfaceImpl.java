@@ -1,0 +1,21 @@
+package com.srm.java8.defaultmethods;
+
+public class DefaultmethodinInterfaceImpl implements DefaultmethodinInterface{
+
+	@Override
+	public void displayMyEduDetails() {
+		
+		System.out.println("B.Tech(IT)");
+			
+	}
+	
+	public static void main(String arg[]){
+		DefaultmethodinInterfaceImpl obj = new DefaultmethodinInterfaceImpl();
+		obj.displayMyDetails();
+		obj.displayMyEduDetails();
+	}
+	
+	
+	
+
+}

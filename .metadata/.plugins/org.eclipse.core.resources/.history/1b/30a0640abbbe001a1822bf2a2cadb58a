@@ -1,0 +1,5 @@
+package com.srm.junit.testcase;
+
+public class BankDepositTest {
+
+}

@@ -1,0 +1,31 @@
+package com.srm.spring.app;
+
+import org.aspectj.lang.annotation.Before;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
+
+public class CustomerDetailsTester {
+
+ 
+	@Mock
+    private HelloRepository helloRepository;
+
+    @InjectMocks // auto inject helloRepository
+    private HelloService helloService = new HelloServiceImpl();
+
+    @BeforeEach
+    void setMockOutput() {
+        when(helloRepository.get()).thenReturn("Hello Mockito From Repository");
+    }
+
+    @DisplayName("Test Mock helloService + helloRepository")
+    @Test
+    void testGet() {
+        assertEquals("Hello Mockito From Repository", helloService.get());
+    }
+	
+	
+}
