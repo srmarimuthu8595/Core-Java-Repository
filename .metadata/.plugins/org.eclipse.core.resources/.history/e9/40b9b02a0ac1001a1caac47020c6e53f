@@ -1,0 +1,11 @@
+package com.srm.java8.lambda;
+
+public class LambdaExpression {
+	
+	public static void main(String arg[]){
+		
+	    System.out.println(" Lambda Expression Result : ");
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.srm.object;
+
+public class Staticvariables {
+	
+	//public static String name ="Chinnasamy";
+
+	public void printmyname(){
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+	
+		name="asdasdf";
+	}
+
+}

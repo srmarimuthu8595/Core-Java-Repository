@@ -1,0 +1,23 @@
+package com.srm.java8.filter;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class Java8StreamFilterDemo {
+	
+	public static void main(String[] args) {
+
+		List<String> names = Arrays.asList("Mari","Muthu","Chinnasamy","Marimuthu R","Erode");
+			
+	
+		Stream<String> allNames = names.stream();
+			
+		
+		Stream<String> longNames = allNames.filter(str -> str.length() > 6);
+			
+	
+		longNames.forEach(str->System.out.println(str+" "));
+	  }
+
+}

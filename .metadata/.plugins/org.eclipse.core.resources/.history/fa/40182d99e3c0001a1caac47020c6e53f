@@ -1,0 +1,22 @@
+package com.srm.java8.stream;
+
+public class StringJoiner {
+	
+	 public static void main(String[] args)
+     {
+		 
+		 StringJoiner joiner = new StringJoiner(",");
+         
+		 joiner.add("how");
+		 joiner.add("to");
+		 joiner.add("do");
+		 joiner.add("in");
+		 joiner.add("java");
+		  
+		 String result = joiner.toString();
+		  
+		 System.out.println(result);
+		 
+     }
+
+}

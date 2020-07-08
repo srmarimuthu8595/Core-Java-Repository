@@ -1,0 +1,12 @@
+package com.srm.java8.stream;
+
+public class MyStringJoiner {
+	
+	
+	public static void main(String[] args)
+     {
+		 
+		 
+     }
+
+}

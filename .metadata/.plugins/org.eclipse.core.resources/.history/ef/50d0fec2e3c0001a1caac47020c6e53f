@@ -1,0 +1,21 @@
+package com.srm.java8.stream;
+
+public class MyStringJoiner {
+	
+	
+	public static void main(String[] args)
+     {
+		 
+		 MyStringJoiner joinNames = new MyStringJoiner(","); // passing comma(,) as delimiter   
+         
+	        // Adding values to StringJoiner  
+	        joinNames.add("Rahul");  
+	        joinNames.add("Raju");  
+	        joinNames.add("Peter");  
+	        joinNames.add("Raheem");  
+	                  
+	        System.out.println(joinNames);  
+		 
+     }
+
+}

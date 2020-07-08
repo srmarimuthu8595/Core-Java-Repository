@@ -1,0 +1,11 @@
+package com.srm.java8.stream;
+
+public class StreamGenerate {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

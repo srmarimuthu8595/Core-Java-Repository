@@ -1,0 +1,24 @@
+package com.srm.java8.stream;
+
+import java.util.Date;
+
+public class StreamGenerate {
+
+	public static void main(String[] args)
+    {
+        
+    }
+	
+	
+	private Date generateDate(){
+		  Stream<Date> stream = Stream.generate(() -> { return new Date(); });
+	      stream.forEach(p -> System.out.println(p));
+	}
+	
+	
+	
+	
+	
+	
+
+}
